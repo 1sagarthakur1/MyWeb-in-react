@@ -334,7 +334,7 @@
     display:block;
   }
   .div_summery{
-    background-color: #ff256d;
+    background-image: linear-gradient(to right top, #ff256d, #d71776, #ab1878, #7e1d72,  #7e1d72, #ab1878, #d71776, #ff256d);
     color: white;
     margin: 30px;
     border-radius: 20px;
