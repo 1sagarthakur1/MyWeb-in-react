@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/MyWeb-in-react/static/css/main.7e483eca.css",
+    "main.js": "/MyWeb-in-react/static/js/main.5f9aa5af.js",
+    "static/js/787.1297335f.chunk.js": "/MyWeb-in-react/static/js/787.1297335f.chunk.js",
+    "static/media/background gif.gif": "/MyWeb-in-react/static/media/background gif.ad89cf0f59455bec69a1.gif",
+    "static/media/Back End.png": "/MyWeb-in-react/static/media/Back End.d0ced037fb03035de44b.png",
+    "static/media/Front End.png": "/MyWeb-in-react/static/media/Front End.0c074f867dfdb02a3942.png",
+    "static/media/DSA.png": "/MyWeb-in-react/static/media/DSA.3fb3738bbc3db381295f.png",
+    "static/media/cricket.png": "/MyWeb-in-react/static/media/cricket.9953975e4b650a9a54d8.png",
+    "static/media/Crime INMS.png": "/MyWeb-in-react/static/media/Crime INMS.ae67f4b446300ed88c64.png",
+    "static/media/Bootstrap_logo.svg.png": "/MyWeb-in-react/static/media/Bootstrap_logo.svg.cb1aa7ebab86974f5bb0.png",
+    "static/media/Visual_Studio.png": "/MyWeb-in-react/static/media/Visual_Studio.19edc3fbac1c451f289d.png",
+    "static/media/java-logo-1.png": "/MyWeb-in-react/static/media/java-logo-1.fdabd4e11f1235e4e8e0.png",
+    "static/media/IntelliJ_IDEA.png": "/MyWeb-in-react/static/media/IntelliJ_IDEA.8a19aee91966b2795b39.png",
+    "static/media/spring boot.png": "/MyWeb-in-react/static/media/spring boot.8b8b72e20f3a4a4ff8ba.png",
+    "static/media/me.jpg": "/MyWeb-in-react/static/media/me.0e877f2cb52c7774e6a1.jpg",
+    "static/media/bewakoof.png": "/MyWeb-in-react/static/media/bewakoof.fdcbfbfaa2e19a4cc1ee.png",
+    "static/media/MySQL-Logo.png": "/MyWeb-in-react/static/media/MySQL-Logo.6e42b2a035b28f240021.png",
+    "static/media/Rest Api.png": "/MyWeb-in-react/static/media/Rest Api.f594b2aa6260a403d1ae.png",
+    "static/media/name_logo.png": "/MyWeb-in-react/static/media/name_logo.b0eb886caa5ca7510236.png",
+    "static/media/STS.png": "/MyWeb-in-react/static/media/STS.8a1cb6ba28c38fa65cca.png",
+    "static/media/css3-logo.png": "/MyWeb-in-react/static/media/css3-logo.71f6c1afd6eaafd7e790.png",
+    "static/media/4961959_github_logo_icon.png": "/MyWeb-in-react/static/media/4961959_github_logo_icon.674a2c71d6340f880c5f.png",
+    "static/media/JavaScript-Logo.png": "/MyWeb-in-react/static/media/JavaScript-Logo.ba8930b16477cd078808.png",
+    "static/media/lombook.png": "/MyWeb-in-react/static/media/lombook.2b4687d1bfc648627bc8.png",
+    "static/media/1217173_linkedin_icon.png": "/MyWeb-in-react/static/media/1217173_linkedin_icon.9aba105bebf1bc8f6921.png",
+    "static/media/10588639_phone_icon.png": "/MyWeb-in-react/static/media/10588639_phone_icon.2d678bad4aeb18bcf055.png",
+    "static/media/react_logo-freelogovectors.net_.webp": "/MyWeb-in-react/static/media/react_logo-freelogovectors.net_.889cf3c2bed54207ce83.webp",
+    "static/media/swagger.svg": "/MyWeb-in-react/static/media/swagger.98d306fd9344c389cb0a5ab5659ad289.svg",
+    "index.html": "/MyWeb-in-react/index.html",
+    "main.7e483eca.css.map": "/MyWeb-in-react/static/css/main.7e483eca.css.map",
+    "main.5f9aa5af.js.map": "/MyWeb-in-react/static/js/main.5f9aa5af.js.map",
+    "787.1297335f.chunk.js.map": "/MyWeb-in-react/static/js/787.1297335f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7e483eca.css",
+    "static/js/main.5f9aa5af.js"
+  ]
+}
