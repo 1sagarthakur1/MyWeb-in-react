@@ -305,7 +305,7 @@
   }
   .dropbox{
     border-radius: 10px;
-    background-color: #ff256d;
+    background-image: linear-gradient(to right top, #8d1c74, #c91677, #ff256d);
     color: white;
     display: none;
     padding:10px;
