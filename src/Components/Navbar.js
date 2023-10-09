@@ -7,32 +7,47 @@ export default function Navbar() {
   function openResume(){
       window.open("https://drive.google.com/file/d/1-tU8qHFngNbiYTBHBkEjkAdV8D0HogXO/view?usp=sharing", "_blank")
   }
+
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    
+    if(x.className === "drop_box_c"){
+      x.className = 'drop_boxOpen';
+    }else{
+      x.className = "drop_box_c";
+    }
+  }
+  
   return (
     <>
-      <div className="nav">
-        <input type="checkbox" id="nav-check"/>
-        <div className="nav-header">
-          <div className="nav-title">
-            <img className='name_logo' src={name_logo} alt="" />
-          </div>
+    <nav>
+        <div className="Navbar" id="navbar">
+            <div className="logo">
+              <img className='name_logo' src={name_logo} alt="" />
+            </div>
+            <div className="all_links">
+              <li><a href="#section1">Home</a></li>
+              <li><a href="#section2">About me</a></li>
+              <li><a href="#section3">Skills</a></li>
+              <li><a href="#section4">Service</a></li>
+              <li><a href="#section5">Contect</a></li>
+              <li onClick={openResume}><a href="#section5">Resume</a></li>
+            </div>
+            <div onClick={myFunction} className="toggle">
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
         </div>
-        <div className="nav-btn">
-          <label for="nav-check">
-            <span></span>
-            <span></span>
-            <span></span>
-          </label>
+        <div className="drop_box_c" id="myTopnav">
+              <li onClick={myFunction}><a href="#section1">Home</a></li>
+              <li onClick={myFunction}><a href="#section2">About me</a></li>
+              <li onClick={myFunction}><a href="#section3">Skills</a></li>
+              <li onClick={myFunction}><a href="#section4">Service</a></li>
+              <li onClick={myFunction}><a href="#section5">Contect</a></li>
+              <li onClick={myFunction}><a href="#section5">Resume</a></li>
         </div>
-        
-        <div className="nav-links">
-          <div><a href="#section1">Home</a></div>
-          <div><a href="#section2">About Me</a></div>
-          <div><a href="#section3">Skills</a></div>
-          <div><a href="#section4">Projects</a></div>
-          <div><a href="#section5">Contact</a></div>
-          <div onclick={{openResume}}><a className='Resumebut' href="../Images/Sagar-Thakur-Resume.pdf" download="">Resume</a></div>
-        </div>
-     </div>
+      </nav>
     </>
   )
 }
