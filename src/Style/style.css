@@ -940,7 +940,7 @@
 
   .bgimg h1{
     color: white;
-    font-size: 60px;
+    font-size: 55px;
   }
 
   .name_logo{
@@ -953,7 +953,7 @@
   .log_comment{
     display: flex;
     gap: 20px;
-    align-items: center;
+    align-items: flex-start;
     /* border: 1px solid white; */
   }
 
@@ -1138,6 +1138,9 @@
     }
     .card{
       width: 700px;
+    }
+    .footer_card{
+      height: 500px;
     }
   }
 
@@ -1484,7 +1487,7 @@
       align-items:flex-start;
     }
     .footer_card{
-      height: 760px;
+      height: 800px;
     }
   }
 
