@@ -24,9 +24,9 @@ export default function Iwatch(props) {
   const formattedDate = currentDate.toLocaleDateString('en-US', options);
 
   return (
-    <div class="time_card">
-        <p class="time-text"><span>{samy[0]}:{samy[1]}:{AMPM[0]}</span><span class="time-sub-text">{AMPM[1]}</span></p>
-        <p class="day-text">{formattedDate}th</p>
+    <div className="time_card">
+        <p className="time-text"><span>{samy[0]}:{samy[1]}:{AMPM[0]}</span><span className="time-sub-text">{AMPM[1]}</span></p>
+        <p className="day-text">{formattedDate}th</p>
     </div>
   )
 }

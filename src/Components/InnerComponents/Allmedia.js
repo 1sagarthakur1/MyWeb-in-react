@@ -6,7 +6,7 @@ import linkedin from '../../Images/Linkedin.png';
 export class Allmedia extends Component {
   render() {
     return (
-      <div class="social-buttons">
+      <div className="social-buttons">
         <div className='social-button'>
           <a href="https://www.instagram.com/sagarsingh_thakur5028/"><img src={instagram}alt="" /></a>
         </div>
