@@ -1,10 +1,10 @@
 import React from 'react'
-import Iprojects from './InnerComponents/Iprojects'
+import Iprojects from '../../Components/InnerComponents/Iprojects'
 
-import Proimg1 from '../Images/Crime INMS.png';
-import Proimg2 from '../Images/pharmeasey.png';
-import Proimg3 from '../Images/bewakoof.png';
-import Proimg4 from '../Images/cricket.png';
+import Proimg1 from '../../Images/Crime INMS.png';
+import Proimg2 from '../../Images/pharmeasey.png';
+import Proimg3 from '../../Images/bewakoof.png';
+import Proimg4 from '../../Images/cricket.png';
 
 export default function Project() {
     var porject = [

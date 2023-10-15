@@ -1,10 +1,10 @@
 import React from 'react'
-import '../Style/style.css'
-import Iservice from './InnerComponents/Iservice'
+import '../../Style/style.css'
+import Iservice from '../../Components/InnerComponents/Iservice'
 
-import backend from '../Images/Back End.png'
-import frontend from '../Images/Front End.png'
-import dsa from '../Images/DSA.png'
+import backend from '../../Images/Back End.png'
+import frontend from '../../Images/Front End.png'
+import dsa from '../../Images/DSA.png'
 export default function Service() {
   return (
     <>

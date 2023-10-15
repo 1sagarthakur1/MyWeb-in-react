@@ -1,18 +1,18 @@
 import React from 'react'
-import '../Style/style.css'
-import Iskills from './InnerComponents/Iskills'
+import '../../Style/style.css'
+import Iskills from '../../Components/InnerComponents/Iskills'
 
-import java from '../Images/java-logo-1.png';
-import mysql from '../Images/MySQL-Logo.png'
-import hyber from '../Images/STS.png';
-import springboot from '../Images/spring boot.png';
-import meven from '../Images/Maven.png';
-import Restapi from '../Images/Rest Api.png';
-import html from '../Images/Html.png';
-import css from '../Images/css3-logo.png';
-import script from '../Images/JavaScript-Logo.png';
-import react from '../Images/react_logo-freelogovectors.net_.webp';
-import bootstrap from '../Images/Bootstrap_logo.svg.png';
+import java from '../../Images/java-logo-1.png';
+import mysql from '../../Images/MySQL-Logo.png'
+import hyber from '../../Images/STS.png';
+import springboot from '../../Images/spring boot.png';
+import meven from '../../Images/Maven.png';
+import Restapi from '../../Images/Rest Api.png';
+import html from '../../Images/Html.png';
+import css from '../../Images/css3-logo.png';
+import script from '../../Images/JavaScript-Logo.png';
+import react from '../../Images/react_logo-freelogovectors.net_.webp';
+import bootstrap from '../../Images/Bootstrap_logo.svg.png';
 
 export default function Skills() {
   return (

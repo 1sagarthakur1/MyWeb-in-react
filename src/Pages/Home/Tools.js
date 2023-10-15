@@ -1,12 +1,12 @@
 import React from 'react'
 
-import sts from '../Images/STS.png';
-import intellij from '../Images/IntelliJ_IDEA.png';
-import github from '../Images/Git-Icon.png';
-import lombook from '../Images/lombook.png';
-import swagger from '../Images/swagger.svg';
-import vscode from '../Images/Visual_Studio.png'
-import Itools from './InnerComponents/Itools';
+import sts from '../../Images/STS.png';
+import intellij from '../../Images/IntelliJ_IDEA.png';
+import github from '../../Images/Git-Icon.png';
+import lombook from '../../Images/lombook.png';
+import swagger from '../../Images/swagger.svg';
+import vscode from '../../Images/Visual_Studio.png'
+import Itools from '../../Components/InnerComponents/Itools';
 
 export default function Tools() {
   return (

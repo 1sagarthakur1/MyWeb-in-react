@@ -1,10 +1,10 @@
 import React from 'react'
 
-import '../Style/style.css'
-import call from '../Images/10588639_phone_icon.png';
-import email from '../Images/5402397_email_inbox_mail_message_envelope_icon.png';
-import linkedin from '../Images/1217173_linkedin_icon.png';
-import git from '../Images/4961959_github_logo_icon.png';
+import '../../Style/style.css'
+import call from '../../Images/10588639_phone_icon.png';
+import email from '../../Images/5402397_email_inbox_mail_message_envelope_icon.png';
+import linkedin from '../../Images/1217173_linkedin_icon.png';
+import git from '../../Images/4961959_github_logo_icon.png';
 
 export default function Contect() {
   return (
