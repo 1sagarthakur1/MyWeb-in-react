@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MyWeb-in-react/static/css/main.ae713f6a.css",
-    "main.js": "/MyWeb-in-react/static/js/main.cce735a7.js",
+    "main.js": "/MyWeb-in-react/static/js/main.8d9870ee.js",
     "static/js/787.1297335f.chunk.js": "/MyWeb-in-react/static/js/787.1297335f.chunk.js",
     "static/media/background gif.gif": "/MyWeb-in-react/static/media/background gif.ad89cf0f59455bec69a1.gif",
     "static/media/Back End.png": "/MyWeb-in-react/static/media/Back End.d0ced037fb03035de44b.png",
@@ -30,11 +30,11 @@
     "static/media/swagger.svg": "/MyWeb-in-react/static/media/swagger.98d306fd9344c389cb0a5ab5659ad289.svg",
     "index.html": "/MyWeb-in-react/index.html",
     "main.ae713f6a.css.map": "/MyWeb-in-react/static/css/main.ae713f6a.css.map",
-    "main.cce735a7.js.map": "/MyWeb-in-react/static/js/main.cce735a7.js.map",
+    "main.8d9870ee.js.map": "/MyWeb-in-react/static/js/main.8d9870ee.js.map",
     "787.1297335f.chunk.js.map": "/MyWeb-in-react/static/js/787.1297335f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ae713f6a.css",
-    "static/js/main.cce735a7.js"
+    "static/js/main.8d9870ee.js"
   ]
 }
