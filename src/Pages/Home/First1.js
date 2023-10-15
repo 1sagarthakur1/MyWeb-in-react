@@ -3,7 +3,7 @@ import me from '../../Images/me.jpg'
 import AboutMe from './AboutMe'
 
 export default function First1() {
-  function openResume(){
+  const openResume = () =>{
     window.open("https://drive.google.com/file/d/1-tU8qHFngNbiYTBHBkEjkAdV8D0HogXO/view?usp=sharing", "_blank")
   }
 
@@ -36,7 +36,7 @@ export default function First1() {
                           <span className="circle3"></span>
                           <span className="circle4"></span>
                           <span className="circle5"></span>
-                          <div onclick={{openResume}}><a className='Resumebut' href="../Images/Sagar-Thakur-Resume.pdf" download="">Resume</a></div>
+                          <div onClick={{openResume}}><a className='Resumebut' href="../Images/Sagar-Thakur-Resume.pdf" download="">Resume</a></div>
                       </button>
                      </div>
                 </div>
@@ -48,7 +48,7 @@ export default function First1() {
                         <span className="circle3"></span>
                         <span className="circle4"></span>
                         <span className="circle5"></span>
-                        <div onclick={{openResume}}><a className='Resumebut' href="../Images/Sagar-Thakur-Resume.pdf" download="">Resume</a></div>
+                        <div onClick={openResume}><a className='Resumebut' href="../Images/Sagar-Thakur-Resume.pdf" download="">Resume</a></div>
                     </button>
                 </div>
                 <div className='education_line'>

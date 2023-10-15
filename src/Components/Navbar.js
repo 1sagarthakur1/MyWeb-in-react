@@ -7,11 +7,11 @@ import { useNavigate } from 'react-router-dom';
 // import IndiProjects from './IndiProjects';
 
 export default function Navbar() {
-  function openResume(){
+  const openResume = () =>{
       window.open("https://drive.google.com/file/d/1-tU8qHFngNbiYTBHBkEjkAdV8D0HogXO/view?usp=sharing", "_blank")
   }
 
-  function myFunction() {
+  const  myFunction = () => {
     var x = document.getElementById("myTopnav");
     
     if(x.className === "drop_box_c"){
@@ -23,10 +23,10 @@ export default function Navbar() {
 
   const navigate = useNavigate();
 
-  function handleClick1(){
+  const handleClick1 = () =>{
     navigate('/')
   }
-  function handleClick2(){
+  const handleClick2 = () =>{
     navigate('/indivisualP')
   }
 
