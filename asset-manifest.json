@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/MyWeb-in-react/static/css/main.84f39ebc.css",
+    "main.css": "/MyWeb-in-react/static/css/main.28cd996f.css",
     "main.js": "/MyWeb-in-react/static/js/main.4cd8ae96.js",
     "static/js/787.1297335f.chunk.js": "/MyWeb-in-react/static/js/787.1297335f.chunk.js",
     "static/media/background gif.gif": "/MyWeb-in-react/static/media/background gif.ad89cf0f59455bec69a1.gif",
@@ -33,12 +33,12 @@
     "static/media/react_logo-freelogovectors.net_.webp": "/MyWeb-in-react/static/media/react_logo-freelogovectors.net_.889cf3c2bed54207ce83.webp",
     "static/media/swagger.svg": "/MyWeb-in-react/static/media/swagger.98d306fd9344c389cb0a5ab5659ad289.svg",
     "index.html": "/MyWeb-in-react/index.html",
-    "main.84f39ebc.css.map": "/MyWeb-in-react/static/css/main.84f39ebc.css.map",
+    "main.28cd996f.css.map": "/MyWeb-in-react/static/css/main.28cd996f.css.map",
     "main.4cd8ae96.js.map": "/MyWeb-in-react/static/js/main.4cd8ae96.js.map",
     "787.1297335f.chunk.js.map": "/MyWeb-in-react/static/js/787.1297335f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.84f39ebc.css",
+    "static/css/main.28cd996f.css",
     "static/js/main.4cd8ae96.js"
   ]
 }
