@@ -115,11 +115,13 @@
     align-items: center;
     justify-content: center;
     height:292px;
-    width: 200px;
+    width: 150px;
     /* border: 1px solid rgb(231, 12, 12); */
     position: relative;
+    /* width: 50px; */
 }
 .Imobiledescrption{
+    max-width: 400px;
     text-align: center;
     padding: 20px;
 }
@@ -146,11 +148,13 @@
     /* border: 1px solid rgb(12, 224, 231); */
 }
 .mobilebackground{
-    border-radius: 12px;
+    top:17px;
+    border-radius: 10px;
     position: absolute;
     overflow: scroll;
     height: 90%;
-    width: 63%;
+    width:80%;
+    left:16px;
     /* border: 1px solid rgb(12, 224, 231); */
 }
 .laptopbackground::-webkit-scrollbar{
@@ -228,7 +232,7 @@
     }
     .Ilaptopdescrption{
         text-align: center;
-        max-width:400px;
+        width:300px;
         padding: 20px;
     }
     .Ilaptop{

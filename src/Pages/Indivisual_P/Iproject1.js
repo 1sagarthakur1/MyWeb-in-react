@@ -2,7 +2,7 @@ import React from 'react'
 import '../../Style/style2.css'
 
 import laptop from '../../Images/mac-laptop-png-13.png'
-import mobile from '../../Images/moblile_withoutBack.png';
+import mobile from '../../Images/mobo.png';
 
 import weatherAppLAPview from '../../Images/weatherApplicationLAPTOPview.png';
 import weatherAppMOBview from '../../Images/weatherApplicationMOBview.png';
