@@ -1,14 +1,17 @@
 {
   "files": {
-    "main.css": "/MyWeb-in-react/static/css/main.37fd6220.css",
-    "main.js": "/MyWeb-in-react/static/js/main.edca1f55.js",
+    "main.css": "/MyWeb-in-react/static/css/main.f979a7b2.css",
+    "main.js": "/MyWeb-in-react/static/js/main.04ca726c.js",
     "static/js/787.1297335f.chunk.js": "/MyWeb-in-react/static/js/787.1297335f.chunk.js",
     "static/media/background gif.gif": "/MyWeb-in-react/static/media/background gif.ad89cf0f59455bec69a1.gif",
+    "static/media/weatherApplicationLAPTOPview.png": "/MyWeb-in-react/static/media/weatherApplicationLAPTOPview.3b588a20338b92dd52c5.png",
+    "static/media/weatherApplicationMOBview.png": "/MyWeb-in-react/static/media/weatherApplicationMOBview.1b81d4e25d2521f618e3.png",
     "static/media/Back End.png": "/MyWeb-in-react/static/media/Back End.d0ced037fb03035de44b.png",
     "static/media/Front End.png": "/MyWeb-in-react/static/media/Front End.0c074f867dfdb02a3942.png",
     "static/media/DSA.png": "/MyWeb-in-react/static/media/DSA.3fb3738bbc3db381295f.png",
     "static/media/cricket.png": "/MyWeb-in-react/static/media/cricket.9953975e4b650a9a54d8.png",
     "static/media/Crime INMS.png": "/MyWeb-in-react/static/media/Crime INMS.ae67f4b446300ed88c64.png",
+    "static/media/Valley-10s-1280px.png": "/MyWeb-in-react/static/media/Valley-10s-1280px.99b544fee31dc00bdf4e.png",
     "static/media/Bootstrap_logo.svg.png": "/MyWeb-in-react/static/media/Bootstrap_logo.svg.cb1aa7ebab86974f5bb0.png",
     "static/media/Visual_Studio.png": "/MyWeb-in-react/static/media/Visual_Studio.19edc3fbac1c451f289d.png",
     "static/media/java-logo-1.png": "/MyWeb-in-react/static/media/java-logo-1.fdabd4e11f1235e4e8e0.png",
@@ -23,18 +26,19 @@
     "static/media/css3-logo.png": "/MyWeb-in-react/static/media/css3-logo.71f6c1afd6eaafd7e790.png",
     "static/media/4961959_github_logo_icon.png": "/MyWeb-in-react/static/media/4961959_github_logo_icon.674a2c71d6340f880c5f.png",
     "static/media/JavaScript-Logo.png": "/MyWeb-in-react/static/media/JavaScript-Logo.ba8930b16477cd078808.png",
+    "static/media/moblile_withoutBack.png": "/MyWeb-in-react/static/media/moblile_withoutBack.eea160d5104a6c2dd227.png",
     "static/media/lombook.png": "/MyWeb-in-react/static/media/lombook.2b4687d1bfc648627bc8.png",
     "static/media/1217173_linkedin_icon.png": "/MyWeb-in-react/static/media/1217173_linkedin_icon.9aba105bebf1bc8f6921.png",
     "static/media/10588639_phone_icon.png": "/MyWeb-in-react/static/media/10588639_phone_icon.2d678bad4aeb18bcf055.png",
     "static/media/react_logo-freelogovectors.net_.webp": "/MyWeb-in-react/static/media/react_logo-freelogovectors.net_.889cf3c2bed54207ce83.webp",
     "static/media/swagger.svg": "/MyWeb-in-react/static/media/swagger.98d306fd9344c389cb0a5ab5659ad289.svg",
     "index.html": "/MyWeb-in-react/index.html",
-    "main.37fd6220.css.map": "/MyWeb-in-react/static/css/main.37fd6220.css.map",
-    "main.edca1f55.js.map": "/MyWeb-in-react/static/js/main.edca1f55.js.map",
+    "main.f979a7b2.css.map": "/MyWeb-in-react/static/css/main.f979a7b2.css.map",
+    "main.04ca726c.js.map": "/MyWeb-in-react/static/js/main.04ca726c.js.map",
     "787.1297335f.chunk.js.map": "/MyWeb-in-react/static/js/787.1297335f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.37fd6220.css",
-    "static/js/main.edca1f55.js"
+    "static/css/main.f979a7b2.css",
+    "static/js/main.04ca726c.js"
   ]
 }
