@@ -1,3 +1,302 @@
-.Indivisual-pro{
+/* .Indivisual-pro{
     margin: 20px;
+} */
+
+
+/* font part */
+.IproHeading{
+    font-size: 40px;
+    color: #161A42;
+    font-family: 'Times New Roman', Times, serif;
+}
+.IproPeragraf{
+    color: rgb(37, 35, 35);
+    line-height:22px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.IproTeckStecks{
+    margin-top: 10px;
+    color: #161A42;
+    font-family: 'Times New Roman', Times, serif;
+}
+.IproTeckStecks~p{
+    line-height:22px;
+    color: rgb(37, 35, 35);
+    font-family: 'Times New Roman', Times, serif;
+}
+.resoposiveheadig{
+    color: #161A42;
+    font-family: 'Times New Roman', Times, serif;
+}
+.Imobiledescrption{
+    padding: 20px;
+}
+
+
+
+.Ilaptopdescrption>:nth-child(2){
+    line-height:22px;
+    color: rgb(33, 32, 32);
+    font-family: 'Times New Roman', Times, serif;
+}
+.Ilaptopdescrption>:nth-child(3){
+    line-height:22px;
+    color: #ff256d;
+    font-family: 'Times New Roman', Times, serif;
+}
+.Imobiledescrption>:nth-child(2){
+    line-height:22px;
+    color: rgb(36, 35, 35);
+    font-family: 'Times New Roman', Times, serif;
+}
+.Imobiledescrption>:nth-child(3){
+    line-height:22px;
+    color: #ff256d;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.IndiContainer{
+    /* height: auto; */
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+    background-image: url('../Images/Valley-10s-1280px.png');
+    background-position: center;
+    /* background-size: contain; */
+    
+}
+
+.Ipr_left{
+    background-color: rgba(255, 255, 255, 0.347);
+    /* height: 100%; */
+    width: 40%;
+    /* border: 1px solid black; */
+    padding: 20px;
+}
+.Ipr_right{
+    height:600px;
+    width:600px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+}
+.Ipr_laptop{
+    height: 60%;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.Ipr_mobile{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid black; */
+}
+.Ilaptop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:230px;
+    width: 400px;
+    /* border: 1px solid rgb(231, 12, 12); */
+    position: relative;
+}
+.Ilaptopdescrption{
+    /* height:238px; */
+    width: 200px;
+    /* border: 1px solid rgb(231, 12, 12); */
+    padding: 10px;
+}
+.Imobile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:292px;
+    width: 200px;
+    /* border: 1px solid rgb(231, 12, 12); */
+    position: relative;
+}
+.Imobiledescrption{
+    /* height:292px; */
+    /* border: 1px solid rgb(231, 12, 12); */
+    /* width: 300px; */
+    padding: 10px;
+}
+.laptop{
+    width:100%;
+}
+.mobile{
+    height:100%;
+}
+.laptopbackground_Img{
+    width: 100%;
+}
+.mobilebackground_Img{
+    /* height: 100%; */
+    width: 100%;
+}
+.laptopbackground{
+    border-radius: 2px;
+    top: 19px;
+    position: absolute;
+    overflow: scroll;
+    height: 80%;
+    width: 73%;
+    /* border: 1px solid rgb(12, 224, 231); */
+}
+.mobilebackground{
+    border-radius: 12px;
+    position: absolute;
+    overflow: scroll;
+    height: 90%;
+    width: 63%;
+    /* border: 1px solid rgb(12, 224, 231); */
+}
+.laptopbackground::-webkit-scrollbar{
+    width: 0; 
+    height: 0;
+}
+.laptopbackground::-webkit-scrollbar-button {
+    display: none;
+}
+.mobilebackground::-webkit-scrollbar{
+    width:0;
+    height: 0; /* Set the width to 0 to hide the track */
+}
+.auther{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    /* border: 5px solid red; */
+    gap: 50px;
+    margin-left: 100px;
+}
+
+.butto {
+    height:50px;
+    width: 130px;
+    margin: 10px;
+    padding: 15px 30px;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    transition: 0.5s;
+    background: linear-gradient(-45deg,#1b164a 0%, #ff256d 100% );
+    color: white;
+    box-shadow: 0 0 10px #363636, inset 0 0 10px #363636;
+  }
+  
+  .butto:hover {
+    animation: a 0.5s 1 linear;
+  }
+  
+  @keyframes a {
+    0% {
+      transform: scale(0.7, 1.3);
+    }
+  
+    25% {
+      transform: scale(1.3, 0.7);
+    }
+  
+    50% {
+      transform: scale(0.7, 1.3);
+    }
+  
+    75% {
+      transform: scale(1.3, 0.7);
+    }
+  
+    100% {
+      transform: scale(1, 1);
+    }
+  }
+
+@media (max-width:1000px) {
+    .IndiContainer{
+        flex-wrap: wrap;
+    }
+    .Ipr_left{
+        /* height:320px; */
+        width:100%;
+    }
+    .Ipr_right{
+        width:100%;
+    }
+    .Ilaptopdescrption{
+        text-align: center;
+        max-width:400px;
+        padding: 20px;
+    }
+    .Ilaptop{
+        height: 237px;
+    }
+    .laptopbackground{
+        border-radius: 2px;
+        top:19px;
+    }
+}
+@media (max-width:680px) {
+    .Ipr_right{
+        gap: 40px;
+        width: auto;
+        height:auto;
+    }
+    .Ipr_right{
+        height: auto;
+        width:auto;
+    }
+    .Ipr_laptop{
+        /* border: 1px solid black; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:center;
+    }
+    .Ipr_mobile{
+        height: 60%;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        /* border: 1px solid black; */
+    }
+    .Ilaptopdescrption{
+        text-align: center;
+        width: auto;
+        padding: 20px;
+    }
+    .auther{
+        justify-content: space-around;
+    }
+    .auther{
+        margin: 0;
+    }
+}
+@media (max-width:590px) {
+    .Ipr_laptop{
+        height: auto;
+    }
+    .Ipr_mobile{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media (max-width:370px) {
+    .Ilaptop{
+        height: 175px;
+        width: 300px;
+    }
+    .laptopbackground{
+        top:12px;
+    }
 }
