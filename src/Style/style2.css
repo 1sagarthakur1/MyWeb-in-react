@@ -148,13 +148,13 @@
     /* border: 1px solid rgb(12, 224, 231); */
 }
 .mobilebackground{
-    top:17px;
+    top:16px;
     border-radius: 10px;
     position: absolute;
     overflow: scroll;
     height: 90%;
-    width:80%;
-    left:16px;
+    width:81%;
+    left:15px;
     /* border: 1px solid rgb(12, 224, 231); */
 }
 .laptopbackground::-webkit-scrollbar{
@@ -239,6 +239,7 @@
         height: 237px;
     }
     .laptopbackground{
+        height: 79%;
         border-radius: 2px;
         top:19px;
     }
