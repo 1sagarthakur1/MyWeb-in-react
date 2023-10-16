@@ -140,10 +140,10 @@
 }
 .laptopbackground{
     border-radius: 2px;
-    top: 19px;
+    top: 15px;
     position: absolute;
     overflow: scroll;
-    height: 80%;
+    height: 82%;
     width: 73%;
     /* border: 1px solid rgb(12, 224, 231); */
 }
