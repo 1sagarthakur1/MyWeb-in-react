@@ -108,6 +108,15 @@
  .drop_boxOpen a:hover{
   color: #161A42;
  }
+ .HASSCRI{
+  display: flex;
+ }
+ .HASSCRIdropbox{
+   display: flex;
+   flex-direction: column;
+   list-style: none;
+   gap: 15px;
+ }
   /* +++++++++++++++++++++++++++++++++++++++++++++++++++
   .Res_But */
   .Res_But {

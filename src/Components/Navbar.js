@@ -42,34 +42,19 @@ export default function Navbar() {
     handleClick2();
 };
 
-
+const HASSCRI = document.getElementById("HASSCRI");
+const HASSCRIdropbox = document.getElementById("HASSCRIdropbox");
 if(bool===false){
-  const aboutme = document.getElementById("aboutme");
-  aboutme.style.display = 'none';
-  const skills = document.getElementById("skills");
-  skills.style.display = 'none';
-  const service = document.getElementById("service");
-  service.style.display = 'none';
-  const contect = document.getElementById("contect");
-  contect.style.display = 'none';
-  const resume = document.getElementById("resume");
-  resume.style.display = 'none';
-  const indiProject = document.getElementById("indiProject");
-  indiProject.style.display = 'none';
+  if(HASSCRI && HASSCRIdropbox){
+    HASSCRI.style.display = 'none';
+    HASSCRIdropbox.style.display = 'none'
+  }
 }
 else if(bool===true){
-  const aboutme = document.getElementById("aboutme");
-  aboutme.style.display = 'block';
-  const skills = document.getElementById("skills");
-  skills.style.display = 'block';
-  const service = document.getElementById("service");
-  service.style.display = 'block';
-  const contect = document.getElementById("contect");
-  contect.style.display = 'block';
-  const resume = document.getElementById("resume");
-  resume.style.display = 'block';
-  const indiProject = document.getElementById("indiProject");
-  indiProject.style.display = 'block';
+  if(HASSCRI && HASSCRIdropbox){
+    HASSCRI.style.display = 'flex';
+    HASSCRIdropbox.style.display = 'flex'
+  }
 }
   
   return (
@@ -81,12 +66,14 @@ else if(bool===true){
             </div>
             <div className="all_links">
               <li id='home' onClick={handleClick1}><a href="#section1">Home</a></li>
-              <li id='aboutme'><a href="#section2">About me</a></li>
-              <li id='skills'><a href="#section3">Skills</a></li>
-              <li id="service"><a href="#section4">Service</a></li>
-              <li id='contect'><a href="#section5">Contect</a></li>
-              <li id='resume' onClick={openResume}><a href="#section5">Resume</a></li>
-              <li id='indiProject' onClick={handleClick2}>Indivisual Projects</li>
+              <div className='HASSCRI' id='HASSCRI'>
+                <li id='aboutme'><a href="#section2">About me</a></li>
+                <li id='skills'><a href="#section3">Skills</a></li>
+                <li id="service"><a href="#section4">Service</a></li>
+                <li id='contect'><a href="#section5">Contect</a></li>
+                <li id='resume' onClick={openResume}><a href="#section5">Resume</a></li>
+                <li id='indiProject' onClick={handleClick2}>Indivisual Projects</li>
+              </div>
             </div>
             <div onClick={myFunction} className="toggle">
               <div></div>
@@ -96,12 +83,14 @@ else if(bool===true){
         </div>
         <div className="drop_box_c" id="myTopnav">
               <li id='home' onClick={handleButtonClick1}><a href="#section1">Home</a></li>
-              <li id='aboutme' onClick={myFunction}><a href="#section2">About me</a></li>
-              <li id='skills'onClick={myFunction}><a href="#section3">Skills</a></li>
-              <li id="service" onClick={myFunction}><a href="#section4">Service</a></li>
-              <li id='contect' onClick={myFunction}><a href="#section5">Contect</a></li>
-              <li id='resume' onClick={myFunction}><a href="#section5">Resume</a></li>
-              <li id='indiProject' onClick={handleButtonClick2}><a href="#section5">Indivisual Projcets</a></li>
+              <div className='HASSCRIdropbox' id='HASSCRIdropbox'>
+                <li id='aboutme' onClick={myFunction}><a href="#section2">About me</a></li>
+                <li id='skills'onClick={myFunction}><a href="#section3">Skills</a></li>
+                <li id="service" onClick={myFunction}><a href="#section4">Service</a></li>
+                <li id='contect' onClick={myFunction}><a href="#section5">Contect</a></li>
+                <li id='resume' onClick={myFunction}><a href="#section5">Resume</a></li>
+                <li id='indiProject' onClick={handleButtonClick2}><a href="#section5">Indivisual Projcets</a></li>
+              </div>
         </div>
       </nav>
     </>
