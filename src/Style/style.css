@@ -130,10 +130,12 @@
     cursor: pointer;
     overflow: hidden;
     margin-top: 50px;
-    width: 100px;
+    width: 150px;
   }
 
   .Resumebut{
+    font-size: 20px;
+    text-align: center;
     position: relative;
     text-decoration: none;
     color: white;
@@ -156,27 +158,27 @@
   }
   
   .Res_But span:nth-child(1) {
-    transform: translate(-3.3em, -4em);
+    transform: translate(-7.3em, -4em);
   }
   
   .Res_But span:nth-child(2) {
-    transform: translate(-6em, 1.3em);
+    transform: translate(-8em, 2.3em);
   }
   
   .Res_But span:nth-child(3) {
-    transform: translate(-.2em, 1.8em);
+    transform: translate(-.6em, 2.8em);
   }
   
   .Res_But span:nth-child(4) {
-    transform: translate(3.5em, 1.4em);
+    transform: translate(7.5em, 1.4em);
   }
   
   .Res_But span:nth-child(5) {
-    transform: translate(3.5em, -3.8em);
+    transform: translate(7.5em, -3.8em);
   }
   
   .Res_But:hover span:not(:nth-child(6)) {
-    transform: translate(-50%, -50%) scale(4);
+    transform: translate(-50%, -60%) scale(7);
     transition: 1.5s ease;
   }
   /* +++++++++++++++++++++++++++++++++++++++++++++++++++++ arrow  */
@@ -448,6 +450,7 @@
   background-color:#ff256eb1;
   opacity: 1;
 }
+
 
 
   .Skills{

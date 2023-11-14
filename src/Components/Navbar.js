@@ -72,7 +72,7 @@ else if(bool===true){
                 <li id="service"><a href="#section4">Service</a></li>
                 <li id='contect'><a href="#section5">Contect</a></li>
                 <li id='resume' onClick={openResume}><a href="#section5">Resume</a></li>
-                <li id='indiProject' onClick={handleClick2}>Indivisual Projects</li>
+                <li id='indiProject' onClick={handleClick2}><a>Indivisual Projects</a></li>
               </div>
             </div>
             <div onClick={myFunction} className="toggle">
