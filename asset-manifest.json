@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MyWeb-in-react/static/css/main.64ca21f3.css",
-    "main.js": "/MyWeb-in-react/static/js/main.451f6776.js",
+    "main.css": "/MyWeb-in-react/static/css/main.17b50cdc.css",
+    "main.js": "/MyWeb-in-react/static/js/main.29f20e6f.js",
     "static/js/787.1297335f.chunk.js": "/MyWeb-in-react/static/js/787.1297335f.chunk.js",
     "static/media/background gif.gif": "/MyWeb-in-react/static/media/background gif.ad89cf0f59455bec69a1.gif",
     "static/media/weatherApplicationLAPTOPview.png": "/MyWeb-in-react/static/media/weatherApplicationLAPTOPview.3b588a20338b92dd52c5.png",
@@ -10,6 +10,7 @@
     "static/media/Front End.png": "/MyWeb-in-react/static/media/Front End.0c074f867dfdb02a3942.png",
     "static/media/DSA.png": "/MyWeb-in-react/static/media/DSA.3fb3738bbc3db381295f.png",
     "static/media/cricket.png": "/MyWeb-in-react/static/media/cricket.9953975e4b650a9a54d8.png",
+    "static/media/Resume.pdf": "/MyWeb-in-react/static/media/Resume.53eae814fff2bd055777.pdf",
     "static/media/Crime INMS.png": "/MyWeb-in-react/static/media/Crime INMS.ae67f4b446300ed88c64.png",
     "static/media/Valley-10s-1280px.png": "/MyWeb-in-react/static/media/Valley-10s-1280px.99b544fee31dc00bdf4e.png",
     "static/media/Bootstrap_logo.svg.png": "/MyWeb-in-react/static/media/Bootstrap_logo.svg.cb1aa7ebab86974f5bb0.png",
@@ -31,14 +32,14 @@
     "static/media/1217173_linkedin_icon.png": "/MyWeb-in-react/static/media/1217173_linkedin_icon.9aba105bebf1bc8f6921.png",
     "static/media/10588639_phone_icon.png": "/MyWeb-in-react/static/media/10588639_phone_icon.2d678bad4aeb18bcf055.png",
     "static/media/react_logo-freelogovectors.net_.webp": "/MyWeb-in-react/static/media/react_logo-freelogovectors.net_.889cf3c2bed54207ce83.webp",
-    "static/media/swagger.svg": "/MyWeb-in-react/static/media/swagger.98d306fd9344c389cb0a5ab5659ad289.svg",
+    "static/media/swagger.svg": "/MyWeb-in-react/static/media/swagger.c3461bef2caf539cca1f8445e7f55263.svg",
     "index.html": "/MyWeb-in-react/index.html",
-    "main.64ca21f3.css.map": "/MyWeb-in-react/static/css/main.64ca21f3.css.map",
-    "main.451f6776.js.map": "/MyWeb-in-react/static/js/main.451f6776.js.map",
+    "main.17b50cdc.css.map": "/MyWeb-in-react/static/css/main.17b50cdc.css.map",
+    "main.29f20e6f.js.map": "/MyWeb-in-react/static/js/main.29f20e6f.js.map",
     "787.1297335f.chunk.js.map": "/MyWeb-in-react/static/js/787.1297335f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.64ca21f3.css",
-    "static/js/main.451f6776.js"
+    "static/css/main.17b50cdc.css",
+    "static/js/main.29f20e6f.js"
   ]
 }
