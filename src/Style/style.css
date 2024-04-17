@@ -391,6 +391,10 @@
     font-size:20px;
     text-align: center;
     display:block;
+    border: 1px solid white;
+    padding: 20px;
+    background-color: #161a42c1;
+    border-radius: 10px;
   }
   .div_summery{
     background-image: linear-gradient(to right top, #ff256d, #d71776, #ab1878, #7e1d72,  #7e1d72, #ab1878, #d71776, #ff256d);

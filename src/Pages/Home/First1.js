@@ -1,6 +1,7 @@
 import React from 'react'
 import me from '../../Images/me.jpg'
 import AboutMe from './AboutMe'
+import resume from '../../Images/Resume.pdf'
 
 export default function First1() {
   const openResume = () =>{
@@ -36,7 +37,7 @@ export default function First1() {
                           <span className="circle3"></span>
                           <span className="circle4"></span>
                           <span className="circle5"></span>
-                          <div onClick={{openResume}}><a className='Resumebut' href="../Images/Sagar-Thakur-Resume.pdf" download="">Resume</a></div>
+                          <div onClick={openResume}><a className='Resumebut' href={resume} download>Resume</a></div>
                       </button>
                      </div>
                 </div>
@@ -48,7 +49,7 @@ export default function First1() {
                         <span className="circle3"></span>
                         <span className="circle4"></span>
                         <span className="circle5"></span>
-                        <div onClick={openResume}><a className='Resumebut' href="../Images/Sagar-Thakur-Resume.pdf" download="../Images/Sagar-Thakur-Resume.pdf">Resume</a></div>
+                        <div onClick={openResume}><a className='Resumebut' href={resume} download>Resume</a></div>
                     </button>
                 </div>
                 <div className='education_line'>
