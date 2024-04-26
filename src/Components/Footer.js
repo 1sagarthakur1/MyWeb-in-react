@@ -24,7 +24,6 @@ export class Footer extends Component {
                                 <li>About me</li>
                                 <li>Skills</li>
                                 <li>Project</li>
-                                <li>RamSehu</li>
                                 <li>Contect</li>
                                 <li>Resume</li>
                                 <li>Stars</li>

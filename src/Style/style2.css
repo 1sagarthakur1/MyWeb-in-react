@@ -1,9 +1,15 @@
-/* .Indivisual-pro{
-    margin: 20px;
-} */
+.Indivisual-pro>h1{
+    margin:50px 20px 0px 20px;
+    color: #ff256d;
+}
 
 
 /* font part */
+.Iproject1{
+        background-image: url('../Images/Valley-10s-1280px.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+}
 .IproHeading{
     font-size: 40px;
     color: #161A42;
@@ -28,8 +34,6 @@
     color: #161A42;
     font-family: 'Times New Roman', Times, serif;
 }
-
-
 
 
 .Ilaptopdescrption>:nth-child(2){
@@ -60,14 +64,15 @@
     display: flex;
     /* flex-wrap: wrap; */
     justify-content: space-around;
-    background-image: url('../Images/Valley-10s-1280px.png');
+    /* background-image: url('../Images/Valley-10s-1280px.png'); */
     background-position: center;
+    background-color: rgba(255, 255, 255, 0.59);
     /* background-size: contain; */
     
 }
 
 .Ipr_left{
-    background-color: rgba(255, 255, 255, 0.347);
+    /* background-color: rgba(255, 255, 255, 0.347); */
     /* height: 100%; */
     width: 40%;
     /* border: 1px solid black; */
@@ -191,6 +196,7 @@
     background: linear-gradient(-45deg,#1b164a 0%, #ff256d 100% );
     color: white;
     box-shadow: 0 0 10px #363636, inset 0 0 10px #363636;
+    cursor: pointer;
   }
   
   .butto:hover {
@@ -275,8 +281,6 @@
     }
     .auther{
         justify-content: space-around;
-    }
-    .auther{
         margin: 0;
     }
 }
@@ -294,6 +298,12 @@
     .resoposiveheadig{
         font-size: 25px;
     }
+    .auther{
+        gap:0px;
+    }
+    .butto{
+        margin: 0px;
+    }
 }
 @media (max-width:370px) {
     .Ilaptop{
@@ -302,5 +312,9 @@
     }
     .laptopbackground{
         top:12px;
+    }
+    .butto{
+        padding: 0;
+        width:100px;
     }
 }
