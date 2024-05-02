@@ -6,6 +6,7 @@ import Service from './Service'
 import Project from './Project'
 import Contect from './Contect'
 import Stars from './Stars'
+import Calender from './GitHubCalendar'
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <Project/>
       <Contect/>
       <Stars/>
+      <Calender/>
     </div>
   )
 }
