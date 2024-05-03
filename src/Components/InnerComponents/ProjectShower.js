@@ -15,14 +15,19 @@ export default function ProjectShower(props) {
                     <h1 className='IproHeading'>{props.name}</h1>
                     <p className='IproPeragraf'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {props.description}</p>
                     <h2 className='IproTeckStecks'>Functionalitys:</h2>
-                    {functionalitys.map((item, index) => (
-                        <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-{item}</p>
-                    ))}
+                    <ul>
+                        {functionalitys.map((item, index) => (
+                            <li key={index}>{item}</li>
+                        ))}
+                    </ul>
 
-                    <h2 className='IproTeckStecks'>Teck Stack:</h2>
+                    <h2 className='IproTeckStecks'>Tech Stack:</h2>
                     <p>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         {tackstack.map((item, index) => (
-                            <span>{item}, </span>
+                            <span key={index}>
+                                {item}
+                                {index !== tackstack.length - 1 && " | "}
+                            </span>
                         ))}
                     </p>
                 </div>
@@ -56,8 +61,8 @@ export default function ProjectShower(props) {
                 </div>
             </div>
             <div className="auther">
-                <a href={props.github}> <button className="butto">Github</button></a>
-                <a href={props.visit}><button className="butto">Visit</button></a>
+                <a href={props.github} target="_blank" rel="noreferrer"> <button className="butto">Github</button></a>
+                <a href={props.visit} target="_blank" rel="noreferrer"><button className="butto">Visit</button></a>
             </div>
         </div>
     )

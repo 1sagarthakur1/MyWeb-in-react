@@ -20,12 +20,12 @@ export class IndiProjects extends Component {
     const project = [
       {
         Name: 'WeatherWise',
-        Description: "I recently completed a significant project named 'WeatherWise,' where I designed and developed a feature-rich weather application. The objective of this project was to create a user-friendly platform that provides accurate and up-to-date weather information to users worldwide. WeatherWise offers real-time weather forecasts, next 15 days forecasts, and weather Images according to current conditions. It integrates with various weather data APIs The application supports multiple platforms, including web, iOS, and Android, and offers a sleek and intuitive user interface. It also incorporates geolocation services to provide location-specific weather updates.",
+        Description: "I recently finished 'WeatherWise,' a feature-rich weather app. Its goal? Provide accurate, up-to-date global weather info. Real-time and 15-day forecasts, current condition images, and integration with various weather APIs. Works on web, iOS, and Android, with a user-friendly interface and geolocation for precise weather updates.",
         Functionalitys: [
-          "User can serach specific location",
-          "There 15 Days forecast",
-          "You can see diffrent diffrent images according current weather condition.",
-          "Temprature, Max Temprature and Min Tamprature",
+          "Users can search for a specific location.",
+          "There is a 15-day forecast available.",
+          "Different images corresponding to the current weather conditions can be viewed.",
+          "Temperature, maximum temperature, and minimum temperature are provided."
         ],
         TackStack: [
           "React js",
@@ -44,27 +44,27 @@ export class IndiProjects extends Component {
       },
       {
         Name: 'E-commerce website (BuyP)',
-        Description: "BuyP is a meticulously crafted e-commerce platform designed to provide users with a seamless shopping experience. As an individual project, it embodies my dedication and expertise in web development, culminating in a polished product delivered within a tight timeframe of two weeks. With a focus on user-centric design and intuitive navigation, BuyP offers a diverse range of products, ensuring customers find precisely what they need with ease. From its sleek interface to robust backend functionality, BuyP represents a harmonious fusion of aesthetics and functionality. Empowering users to browse, shop, and transact securely, BuyP sets a new standard for online retail.",
+        Description: "BuyP is a meticulously crafted e-commerce platform offering seamless shopping. Developed within two weeks, it showcases user-centric design and intuitive navigation. With a diverse product range and robust backend, BuyP blends aesthetics with functionality. Empowering secure browsing and transactions, it sets a new standard in online retail.",
         Functionalitys: [
-          "User can serach product from search bar",
-          "User can longin / sginup",
-          "There is mail integration you will receive otp register and forgot password time",
-          "Add product in card, and remove also",
-          "You can visit user account, and edit details",
-          "User can order product",
-          "Order status"
+            "Users can search for products using the search bar.",
+            "Users can log in or sign up.",
+            "The platform features mail integration, providing OTPs for registration and password recovery.",
+            "Users can add or remove products from their cart.",
+            "Users have access to their accounts, allowing them to edit details.",
+            "Users can place orders for products.",
+            "Order status is available."
         ],
         TackStack: [
-          "React.js",
-          "Next.js",
-          "Node.js",
-          "Exprass.js",
-          "MongoDB / Mongoose",
-          "HTML",
-          "Css",
-          "JavaScript",
-          "npm",
-          "npx"
+            "React.js",
+            "Next.js",
+            "Node.js",
+            "Exprass.js",
+            "MongoDB / Mongoose",
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "npm",
+            "npx"
         ],
         WeatherAppLAPview: buyPappLAPview,
         WeatherAppMOBview: buyPmOBview,
@@ -72,7 +72,7 @@ export class IndiProjects extends Component {
         MobileDesc: "Ensuring a smooth and engaging user experience across various devices and screen sizes. Whether you access it from a desktop computer, laptop, tablet, or smartphone, the website's layout and content automatically adjust to provide optimal readability and usability.",
         Github: "https://github.com/1sagarthakur1/BuyP_Frontend_App",
         Visit: "https://buy-p-frontend-app.vercel.app/"
-      }
+    }
     ]
 
     return (

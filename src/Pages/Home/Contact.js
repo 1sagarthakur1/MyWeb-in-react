@@ -6,12 +6,12 @@ import email from '../../Images/5402397_email_inbox_mail_message_envelope_icon.p
 import linkedin from '../../Images/1217173_linkedin_icon.png';
 import git from '../../Images/4961959_github_logo_icon.png';
 
-export default function Contect() {
+export default function Contact() {
   return (
     <>
         <section id='section5'></section>
-        <div className='contect'>
-            <h1>Contect</h1>
+        <div className='contact'>
+            <h1>Contact</h1>
             <div>
                 {/* contect1 */}
                 <div className="contect_card">

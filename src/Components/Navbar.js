@@ -70,9 +70,9 @@ export default function Navbar() {
               <li id='aboutme'><a href="#section2"  >About me</a></li>
               <li id='skills'><a href="#section3" >Skills</a></li>
               <li id="service"><a href="#section4" >Service</a></li>
-              <li id='contect'><a href="#section5">Contect</a></li>
+              <li id='contect'><a href="#section5">Contact</a></li>
               <li id='resume' onClick={openResume}><a href="#section5">Resume</a></li>
-              <li id='indiProject' onClick={handleClick2}><a href="#section5">Indivisual Projects</a></li>
+              <li id='indiProject' onClick={handleClick2}><a href="#section5">Individual Projects</a></li>
             </div>
           </div>
           <div onClick={myFunction} className="toggle">
@@ -87,9 +87,9 @@ export default function Navbar() {
             <li id='aboutme' onClick={myFunction}><a href="#section2">About me</a></li>
             <li id='skills' onClick={myFunction}><a href="#section3">Skills</a></li>
             <li id="service" onClick={myFunction}><a href="#section4">Service</a></li>
-            <li id='contect' onClick={myFunction}><a href="#section5">Contect</a></li>
+            <li id='contect' onClick={myFunction}><a href="#section5">Contact</a></li>
             <li id='resume' onClick={myFunction}><a href="#section5">Resume</a></li>
-            <li id='indiProject' onClick={handleButtonClick2}><a href="#section5">Indivisual Projcets</a></li>
+            <li id='indiProject' onClick={handleButtonClick2}><a href="#section5">Individual Projcets</a></li>
           </div>
         </div>
       </nav>

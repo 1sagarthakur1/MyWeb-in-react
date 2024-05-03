@@ -4,7 +4,7 @@ import Skills from './Skills'
 import Tools from './Tools'
 import Service from './Service'
 import Project from './Project'
-import Contect from './Contect'
+import Contact from './Contact'
 import Stars from './Stars'
 import Calender from './GitHubCalendar'
 
@@ -16,7 +16,7 @@ export default function Home() {
       <Tools/>
       <Service/>
       <Project/>
-      <Contect/>
+      <Contact/>
       <Stars/>
       <Calender/>
     </div>
