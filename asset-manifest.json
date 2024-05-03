@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MyWeb-in-react/static/css/main.d2d0bd21.css",
-    "main.js": "/MyWeb-in-react/static/js/main.1b5d75d0.js",
+    "main.css": "/MyWeb-in-react/static/css/main.cb5f337a.css",
+    "main.js": "/MyWeb-in-react/static/js/main.8cd4e10a.js",
     "static/js/787.1297335f.chunk.js": "/MyWeb-in-react/static/js/787.1297335f.chunk.js",
     "static/media/background gif.gif": "/MyWeb-in-react/static/media/background gif.ad89cf0f59455bec69a1.gif",
     "static/media/weatherApplicationLAPTOPview.png": "/MyWeb-in-react/static/media/weatherApplicationLAPTOPview.3b588a20338b92dd52c5.png",
@@ -38,12 +38,12 @@
     "static/media/react_logo-freelogovectors.net_.webp": "/MyWeb-in-react/static/media/react_logo-freelogovectors.net_.889cf3c2bed54207ce83.webp",
     "static/media/swagger.svg": "/MyWeb-in-react/static/media/swagger.c3461bef2caf539cca1f8445e7f55263.svg",
     "index.html": "/MyWeb-in-react/index.html",
-    "main.d2d0bd21.css.map": "/MyWeb-in-react/static/css/main.d2d0bd21.css.map",
-    "main.1b5d75d0.js.map": "/MyWeb-in-react/static/js/main.1b5d75d0.js.map",
+    "main.cb5f337a.css.map": "/MyWeb-in-react/static/css/main.cb5f337a.css.map",
+    "main.8cd4e10a.js.map": "/MyWeb-in-react/static/js/main.8cd4e10a.js.map",
     "787.1297335f.chunk.js.map": "/MyWeb-in-react/static/js/787.1297335f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d2d0bd21.css",
-    "static/js/main.1b5d75d0.js"
+    "static/css/main.cb5f337a.css",
+    "static/js/main.8cd4e10a.js"
   ]
 }
