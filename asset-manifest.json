@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MyWeb-in-react/static/css/main.cd921d64.css",
-    "main.js": "/MyWeb-in-react/static/js/main.febc23a5.js",
+    "main.css": "/MyWeb-in-react/static/css/main.4c35bd04.css",
+    "main.js": "/MyWeb-in-react/static/js/main.5f3aa9e9.js",
     "static/js/787.1297335f.chunk.js": "/MyWeb-in-react/static/js/787.1297335f.chunk.js",
     "static/media/background gif.gif": "/MyWeb-in-react/static/media/background gif.ad89cf0f59455bec69a1.gif",
     "static/media/weatherApplicationLAPTOPview.png": "/MyWeb-in-react/static/media/weatherApplicationLAPTOPview.3b588a20338b92dd52c5.png",
@@ -13,15 +13,15 @@
     "static/media/Front End.png": "/MyWeb-in-react/static/media/Front End.0c074f867dfdb02a3942.png",
     "static/media/DSA.png": "/MyWeb-in-react/static/media/DSA.3fb3738bbc3db381295f.png",
     "static/media/cricket.png": "/MyWeb-in-react/static/media/cricket.9953975e4b650a9a54d8.png",
-    "static/media/Resume.pdf": "/MyWeb-in-react/static/media/Resume.53eae814fff2bd055777.pdf",
+    "static/media/me-poBG.jpg": "/MyWeb-in-react/static/media/me-poBG.6087e5abbe11bcaca9c7.jpg",
     "static/media/Crime INMS.png": "/MyWeb-in-react/static/media/Crime INMS.ae67f4b446300ed88c64.png",
+    "static/media/fp03_018-Sagar-Thakur-Resume.pdf": "/MyWeb-in-react/static/media/fp03_018-Sagar-Thakur-Resume.81112813da2699979f52.pdf",
     "static/media/Valley-10s-1280px.png": "/MyWeb-in-react/static/media/Valley-10s-1280px.99b544fee31dc00bdf4e.png",
     "static/media/Bootstrap_logo.svg.png": "/MyWeb-in-react/static/media/Bootstrap_logo.svg.cb1aa7ebab86974f5bb0.png",
     "static/media/Visual_Studio.png": "/MyWeb-in-react/static/media/Visual_Studio.19edc3fbac1c451f289d.png",
     "static/media/java-logo-1.png": "/MyWeb-in-react/static/media/java-logo-1.fdabd4e11f1235e4e8e0.png",
     "static/media/IntelliJ_IDEA.png": "/MyWeb-in-react/static/media/IntelliJ_IDEA.8a19aee91966b2795b39.png",
     "static/media/spring boot.png": "/MyWeb-in-react/static/media/spring boot.8b8b72e20f3a4a4ff8ba.png",
-    "static/media/me.jpg": "/MyWeb-in-react/static/media/me.0e877f2cb52c7774e6a1.jpg",
     "static/media/bewakoof.png": "/MyWeb-in-react/static/media/bewakoof.fdcbfbfaa2e19a4cc1ee.png",
     "static/media/MySQL-Logo.png": "/MyWeb-in-react/static/media/MySQL-Logo.6e42b2a035b28f240021.png",
     "static/media/Rest Api.png": "/MyWeb-in-react/static/media/Rest Api.f594b2aa6260a403d1ae.png",
@@ -38,12 +38,12 @@
     "static/media/react_logo-freelogovectors.net_.webp": "/MyWeb-in-react/static/media/react_logo-freelogovectors.net_.889cf3c2bed54207ce83.webp",
     "static/media/swagger.svg": "/MyWeb-in-react/static/media/swagger.c3461bef2caf539cca1f8445e7f55263.svg",
     "index.html": "/MyWeb-in-react/index.html",
-    "main.cd921d64.css.map": "/MyWeb-in-react/static/css/main.cd921d64.css.map",
-    "main.febc23a5.js.map": "/MyWeb-in-react/static/js/main.febc23a5.js.map",
+    "main.4c35bd04.css.map": "/MyWeb-in-react/static/css/main.4c35bd04.css.map",
+    "main.5f3aa9e9.js.map": "/MyWeb-in-react/static/js/main.5f3aa9e9.js.map",
     "787.1297335f.chunk.js.map": "/MyWeb-in-react/static/js/787.1297335f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cd921d64.css",
-    "static/js/main.febc23a5.js"
+    "static/css/main.4c35bd04.css",
+    "static/js/main.5f3aa9e9.js"
   ]
 }
