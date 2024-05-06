@@ -510,7 +510,9 @@ a {
   /* margin: 30px; */
   width: 300px;
   height: 300px;
-  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.523), 0 15px 12px rgba(0, 0, 0, 0.349);
+  /* box-shadow: 0 19px 38px rgba(245, 128, 128, 0.523), 0 15px 12px rgba(0, 0, 0, 0.349); */
+  box-shadow: 5px 5px 10px #ff256d;
+  border-radius:10px;
 }
 
 .dropbox {

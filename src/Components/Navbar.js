@@ -28,19 +28,19 @@ export default function Navbar() {
     navigate('/')
     setBool(true);
   }
-  const handleClick2 = () => {
-    navigate('/indivisualP')
-    setBool(false);
-  }
+  // const handleClick2 = () => {
+  //   navigate('/indivisualP')
+  //   setBool(false);
+  // }
 
   const handleButtonClick1 = () => {
     myFunction();
     handleClick1();
   };
-  const handleButtonClick2 = () => {
-    myFunction();
-    handleClick2();
-  };
+  // const handleButtonClick2 = () => {
+  //   myFunction();
+  //   handleClick2();
+  // };
 
   const HASSCRI = document.getElementById("HASSCRI");
   const HASSCRIdropbox = document.getElementById("HASSCRIdropbox");
@@ -72,7 +72,7 @@ export default function Navbar() {
               <li id="service"><a href="#section4" >Service</a></li>
               <li id='contect'><a href="#section5">Contact</a></li>
               <li id='resume' onClick={openResume}><a href="#section5">Resume</a></li>
-              <li id='indiProject' onClick={handleClick2}><a href="#section5">Individual Projects</a></li>
+              {/* <li id='indiProject' onClick={handleClick2}><a href="#section5">Individual Projects</a></li> */}
             </div>
           </div>
           <div onClick={myFunction} className="toggle">
@@ -89,7 +89,7 @@ export default function Navbar() {
             <li id="service" onClick={myFunction}><a href="#section4">Service</a></li>
             <li id='contect' onClick={myFunction}><a href="#section5">Contact</a></li>
             <li id='resume' onClick={myFunction}><a href="#section5">Resume</a></li>
-            <li id='indiProject' onClick={handleButtonClick2}><a href="#section5">Individual Projcets</a></li>
+            {/* <li id='indiProject' onClick={handleButtonClick2}><a href="#section5">Individual Projcets</a></li> */}
           </div>
         </div>
       </nav>

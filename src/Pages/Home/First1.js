@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
-import me from '../../Images/me.jpg'
+import me from '../../Images/me-poBG.jpg'
 import AboutMe from './AboutMe'
-import resume from '../../Images/Resume.pdf'
+import resume from '../../Images/fp03_018-Sagar-Thakur-Resume.pdf'
 import MyEducation from './MyEducation';
 
 export default function First1() {

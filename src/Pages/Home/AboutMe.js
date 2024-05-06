@@ -1,6 +1,6 @@
 import React from 'react'
 import '../../Style/style.css'
-import resume from '../../Images/Resume.pdf'
+import resume from '../../Images/fp03_018-Sagar-Thakur-Resume.pdf'
 
 export default function AboutMe() {
   const openResume = () => {
