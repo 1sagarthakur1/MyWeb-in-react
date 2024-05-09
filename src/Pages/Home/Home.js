@@ -7,11 +7,12 @@ import Project from './Project'
 import Contact from './Contact'
 import Stars from './Stars'
 import Calender from './GitHubCalendar'
+import bg from '../../Images/background\ gif.gif';
 
 export default function Home() {
   return (
     <div>
-      <First1/>
+      <First1 src={bg} alt="Description" className="Home"/>
       <Skills/>
       <Tools/>
       <Service/>

@@ -1,10 +1,10 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import me from '../../Images/me-poBG.jpg'
 import AboutMe from './AboutMe'
 import resume from '../../Images/fp03_018-Sagar-Thakur-Resume.pdf'
 import MyEducation from './MyEducation';
 
-export default function First1() {
+export default function First1({ src, alt, className }) {
   const [bodyWidth, setBodyWidth] = useState(0);
 
   const openResume = () => {
@@ -24,10 +24,38 @@ export default function First1() {
     };
   }, []); 
 
+
+  const [isVisible, setIsVisible] = useState(false);
+  const ref = useRef(null);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        // When background becomes visible, load the image
+        if (entry.isIntersecting) {
+          setIsVisible(true);
+          observer.unobserve(ref.current);
+        }
+      },
+      {
+        rootMargin: '0px', // Adjust as needed
+        threshold: 0.1 // Adjust as needed
+      }
+    );
+
+    observer.observe(ref.current);
+
+    return () => {
+      observer.disconnect();
+    };
+  }, []);
+
+  const backgroundImageStyle = isVisible ? { backgroundImage: `url(${src})` } : {};
+
   return (
     <>
       <section id="section1"></section>
-      <div className='Home'>
+      <div ref={ref} className={`${className} lazy-background`} style={backgroundImageStyle}>
         <div className='heading' style={{display:bodyWidth>=650?"none":"block"}}>
           <h1>
             <span style={{ "--i": "1", color: "#ff256d" }}>H</span>
