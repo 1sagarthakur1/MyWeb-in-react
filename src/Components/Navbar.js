@@ -5,6 +5,7 @@ import '../Style/style.css'
 import name_logo from '../Images/name_logo.png'
 import { useNavigate } from 'react-router-dom';
 // import IndiProjects from './IndiProjects';
+import resume from '../Images/fp03_018-Sagar-Thakur-Resume.pdf';
 
 export default function Navbar() {
   const openResume = () => {
@@ -71,7 +72,8 @@ export default function Navbar() {
               <li id='skills'><a href="#section3" >Skills</a></li>
               <li id="service"><a href="#section4" >Service</a></li>
               <li id='contect'><a href="#section5">Contact</a></li>
-              <li id='resume' onClick={openResume}><a href="#section5">Resume</a></li>
+              <li id='resume' onClick={openResume} href={resume} download><a href={resume} download >Resume</a></li>
+
               {/* <li id='indiProject' onClick={handleClick2}><a href="#section5">Individual Projects</a></li> */}
             </div>
           </div>
@@ -88,7 +90,8 @@ export default function Navbar() {
             <li id='skills' onClick={myFunction}><a href="#section3">Skills</a></li>
             <li id="service" onClick={myFunction}><a href="#section4">Service</a></li>
             <li id='contect' onClick={myFunction}><a href="#section5">Contact</a></li>
-            <li id='resume' onClick={myFunction}><a href="#section5">Resume</a></li>
+            <li id='resume' onClick={myFunction} ><a href={resume} download>Resume</a></li>
+
             {/* <li id='indiProject' onClick={handleButtonClick2}><a href="#section5">Individual Projcets</a></li> */}
           </div>
         </div>
