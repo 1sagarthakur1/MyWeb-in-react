@@ -58,7 +58,8 @@ export default function Project() {
             ],
             tech_stack: "HTML | CSS | javascript | fetching API | Import-Export",
             git_link: "https://github.com/1sagarthakur1/giving-scene-667-Bewakoof",
-            prsent_link: "https://bewookoof-app-groupproject.netlify.app/",
+            // prsent_link: "https://bewookoof-app-groupproject.netlify.app/",
+            prsent_link: "https://buy-p-frontend-app.vercel.app/",
             image: Proimg3
         },
 
