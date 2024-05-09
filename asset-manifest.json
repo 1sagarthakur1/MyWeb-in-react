@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MyWeb-in-react/static/css/main.bcd87a84.css",
-    "main.js": "/MyWeb-in-react/static/js/main.c99ddbba.js",
+    "main.js": "/MyWeb-in-react/static/js/main.c6e4b3e5.js",
     "static/js/787.1297335f.chunk.js": "/MyWeb-in-react/static/js/787.1297335f.chunk.js",
     "static/media/background gif.gif": "/MyWeb-in-react/static/media/background gif.ad89cf0f59455bec69a1.gif",
     "static/media/weatherApplicationLAPTOPview.png": "/MyWeb-in-react/static/media/weatherApplicationLAPTOPview.3b588a20338b92dd52c5.png",
@@ -15,7 +15,7 @@
     "static/media/cricket.png": "/MyWeb-in-react/static/media/cricket.9953975e4b650a9a54d8.png",
     "static/media/me-poBG.jpg": "/MyWeb-in-react/static/media/me-poBG.6087e5abbe11bcaca9c7.jpg",
     "static/media/Crime INMS.png": "/MyWeb-in-react/static/media/Crime INMS.ae67f4b446300ed88c64.png",
-    "static/media/fp03_018-Sagar-Thakur-Resume.pdf": "/MyWeb-in-react/static/media/fp03_018-Sagar-Thakur-Resume.81112813da2699979f52.pdf",
+    "static/media/fp03_018-Sagar-Thakur-Resume.pdf": "/MyWeb-in-react/static/media/fp03_018-Sagar-Thakur-Resume.1efa88d7b6085bcc74b9.pdf",
     "static/media/Valley-10s-1280px.png": "/MyWeb-in-react/static/media/Valley-10s-1280px.99b544fee31dc00bdf4e.png",
     "static/media/Bootstrap_logo.svg.png": "/MyWeb-in-react/static/media/Bootstrap_logo.svg.cb1aa7ebab86974f5bb0.png",
     "static/media/Visual_Studio.png": "/MyWeb-in-react/static/media/Visual_Studio.19edc3fbac1c451f289d.png",
@@ -39,11 +39,11 @@
     "static/media/swagger.svg": "/MyWeb-in-react/static/media/swagger.c3461bef2caf539cca1f8445e7f55263.svg",
     "index.html": "/MyWeb-in-react/index.html",
     "main.bcd87a84.css.map": "/MyWeb-in-react/static/css/main.bcd87a84.css.map",
-    "main.c99ddbba.js.map": "/MyWeb-in-react/static/js/main.c99ddbba.js.map",
+    "main.c6e4b3e5.js.map": "/MyWeb-in-react/static/js/main.c6e4b3e5.js.map",
     "787.1297335f.chunk.js.map": "/MyWeb-in-react/static/js/787.1297335f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bcd87a84.css",
-    "static/js/main.c99ddbba.js"
+    "static/js/main.c6e4b3e5.js"
   ]
 }
