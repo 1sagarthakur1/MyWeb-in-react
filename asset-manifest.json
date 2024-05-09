@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MyWeb-in-react/static/css/main.bcd87a84.css",
-    "main.js": "/MyWeb-in-react/static/js/main.5f3aa9e9.js",
+    "main.js": "/MyWeb-in-react/static/js/main.cc75f4a3.js",
     "static/js/787.1297335f.chunk.js": "/MyWeb-in-react/static/js/787.1297335f.chunk.js",
     "static/media/background gif.gif": "/MyWeb-in-react/static/media/background gif.ad89cf0f59455bec69a1.gif",
     "static/media/weatherApplicationLAPTOPview.png": "/MyWeb-in-react/static/media/weatherApplicationLAPTOPview.3b588a20338b92dd52c5.png",
@@ -39,11 +39,11 @@
     "static/media/swagger.svg": "/MyWeb-in-react/static/media/swagger.c3461bef2caf539cca1f8445e7f55263.svg",
     "index.html": "/MyWeb-in-react/index.html",
     "main.bcd87a84.css.map": "/MyWeb-in-react/static/css/main.bcd87a84.css.map",
-    "main.5f3aa9e9.js.map": "/MyWeb-in-react/static/js/main.5f3aa9e9.js.map",
+    "main.cc75f4a3.js.map": "/MyWeb-in-react/static/js/main.cc75f4a3.js.map",
     "787.1297335f.chunk.js.map": "/MyWeb-in-react/static/js/787.1297335f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bcd87a84.css",
-    "static/js/main.5f3aa9e9.js"
+    "static/js/main.cc75f4a3.js"
   ]
 }
