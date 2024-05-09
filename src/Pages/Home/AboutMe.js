@@ -4,7 +4,7 @@ import resume from '../../Images/fp03_018-Sagar-Thakur-Resume.pdf'
 
 export default function AboutMe() {
   const openResume = () => {
-    window.open("https://drive.google.com/file/d/1-tU8qHFngNbiYTBHBkEjkAdV8D0HogXO/view?usp=sharing", "_blank")
+    window.open("https://drive.google.com/file/d/1cY3DCC8RPUEoyPe051p3crc4I7qAMrNq/view?usp=sharing", "_blank")
   }
   return (
     <>
