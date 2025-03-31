@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MyWeb-in-react/static/css/main.bcd87a84.css",
-    "main.js": "/MyWeb-in-react/static/js/main.c6e4b3e5.js",
+    "main.js": "/MyWeb-in-react/static/js/main.ea9cfe68.js",
     "static/js/787.1297335f.chunk.js": "/MyWeb-in-react/static/js/787.1297335f.chunk.js",
     "static/media/background gif.gif": "/MyWeb-in-react/static/media/background gif.ad89cf0f59455bec69a1.gif",
     "static/media/weatherApplicationLAPTOPview.png": "/MyWeb-in-react/static/media/weatherApplicationLAPTOPview.3b588a20338b92dd52c5.png",
@@ -12,6 +12,7 @@
     "static/media/Back End.png": "/MyWeb-in-react/static/media/Back End.d0ced037fb03035de44b.png",
     "static/media/Front End.png": "/MyWeb-in-react/static/media/Front End.0c074f867dfdb02a3942.png",
     "static/media/DSA.png": "/MyWeb-in-react/static/media/DSA.3fb3738bbc3db381295f.png",
+    "static/media/5_asfasw112.jpg": "/MyWeb-in-react/static/media/5_asfasw112.833862aaf3a3e36f4298.jpg",
     "static/media/cricket.png": "/MyWeb-in-react/static/media/cricket.9953975e4b650a9a54d8.png",
     "static/media/me-poBG.jpg": "/MyWeb-in-react/static/media/me-poBG.6087e5abbe11bcaca9c7.jpg",
     "static/media/Crime INMS.png": "/MyWeb-in-react/static/media/Crime INMS.ae67f4b446300ed88c64.png",
@@ -39,11 +40,11 @@
     "static/media/swagger.svg": "/MyWeb-in-react/static/media/swagger.c3461bef2caf539cca1f8445e7f55263.svg",
     "index.html": "/MyWeb-in-react/index.html",
     "main.bcd87a84.css.map": "/MyWeb-in-react/static/css/main.bcd87a84.css.map",
-    "main.c6e4b3e5.js.map": "/MyWeb-in-react/static/js/main.c6e4b3e5.js.map",
+    "main.ea9cfe68.js.map": "/MyWeb-in-react/static/js/main.ea9cfe68.js.map",
     "787.1297335f.chunk.js.map": "/MyWeb-in-react/static/js/787.1297335f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bcd87a84.css",
-    "static/js/main.c6e4b3e5.js"
+    "static/js/main.ea9cfe68.js"
   ]
 }
